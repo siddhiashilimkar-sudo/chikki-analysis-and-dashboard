@@ -1,0 +1,2 @@
+-- Demo rows are generated in data/raw/business_data.xlsx; use the Python ETL to load them.
+-- The workbook generator prefixes demo product and supplier names with DEMO.

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.db
+frontend/node_modules/
+frontend/dist/
+logs/
+data/processed/*.json
+data/backups/*
+
+frontend/.npm-cache/
+.env
+.pip-cache/
+.pycache-check/
+data/backup/
+data/processed/

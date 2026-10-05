@@ -1,0 +1,2 @@
+# Database
+Database name `maganlal_chikki_bi`. Demo uses SQLite for zero-setup startup; MySQL schema and Power BI views are in `schema.sql` and `views.sql`. Configure `.env` with `DATABASE_MODE=mysql`, `DB_HOST`, `DB_PORT`, `DB_NAME=maganlal_chikki_bi`, `DB_USER`, and `DB_PASSWORD`; apply the SQL files. The ETL transactionally loads the workbook's 13 business sheets into the project tables. The legacy `maganlal_bi_dashboard` database is not used or modified.

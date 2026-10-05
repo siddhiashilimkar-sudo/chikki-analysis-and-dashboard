@@ -1,0 +1,2 @@
+# Workbook mapping
+`raw/business_data.xlsx` is generated synthetic data. Sheets: Products, Categories, Suppliers, Sales, Sale_Items, Purchases, Purchase_Items, Inventory, Inventory_Movements, Expenses, Payments, Returns, Return_Items. IDs act as stable keys; Excel dates are dates; amounts are INR; weight is numeric with a unit column. Core ETL currently loads Products, Sales and Sale_Items. Map real headers in `etl/cleaner.py`, preserve stable IDs, validate relationships and values, and back up before loading. Never use the generator over real data.
